@@ -1,0 +1,40 @@
+body {
+            font-family: monospace;
+            background-color: #111;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        button {
+            background-color: #00bfff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #009acd;
+        }
+
+        .passwords {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .password-box {
+            background-color: #222;
+            padding: 10px;
+            border-radius: 6px;
+            min-width: 300px;
+            text-align: center;
+            word-wrap: break-word;
+        }
